@@ -1,7 +1,11 @@
 {
- "generated": "2026-11-20T21:31:43",
+ "generated": "2026-11-21T00:24:15",
  "games": 1000,
  "total_games": 1000,
+ "username": "a_karakaya",
+ "legacy_progress": true,
+ "main_time_control": "600",
+ "main_time_class": "rapid",
  "results": {
   "white": {
    "win": 239,
@@ -57,25 +61,25 @@
    "blunder_rate": 3.8
   },
   {
-   "bucket": "30-60 sn",
+   "bucket": "30 sn-1 dk",
    "moves": 363,
    "accuracy": 92.5,
    "blunder_rate": 1.7
   },
   {
-   "bucket": "1-3 dk",
+   "bucket": "1 dk-3 dk",
    "moves": 1220,
    "accuracy": 91.7,
    "blunder_rate": 3.0
   },
   {
-   "bucket": "3-6 dk",
+   "bucket": "3 dk-6 dk",
    "moves": 6348,
    "accuracy": 90.4,
    "blunder_rate": 3.3
   },
   {
-   "bucket": "6+ dk",
+   "bucket": "6 dk+",
    "moves": 28012,
    "accuracy": 87.0,
    "blunder_rate": 3.0
@@ -89,25 +93,25 @@
    "mistake_rate": 1.4
   },
   {
-   "bucket": "3-10 sn",
+   "bucket": "3 sn-10 sn",
    "moves": 8793,
    "blunder_rate": 3.9,
    "mistake_rate": 2.8
   },
   {
-   "bucket": "10-30 sn",
+   "bucket": "10 sn-30 sn",
    "moves": 4932,
    "blunder_rate": 5.4,
    "mistake_rate": 4.0
   },
   {
-   "bucket": "30-60 sn",
+   "bucket": "30 sn-1 dk",
    "moves": 780,
    "blunder_rate": 6.8,
    "mistake_rate": 4.0
   },
   {
-   "bucket": "60+ sn",
+   "bucket": "1 dk+",
    "moves": 141,
    "blunder_rate": 6.4,
    "mistake_rate": 8.5

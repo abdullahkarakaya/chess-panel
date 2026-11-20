@@ -1,8 +1,11 @@
 // Çevrimdışı çalışma için service worker.
 // - Uygulama dosyaları (index.html, assets, simgeler): önbellekten, yoksa ağdan
 // - Veri (report.json, puzzles.json): önce ağ (güncel veri), ağ yoksa önbellek
-const VERSION = "20261120234318";
-const CACHE = "satranc-" + VERSION;
+const VERSION = "20261121002420";
+// Önbellek adı siteye göre ayrılır: aynı alan adındaki diğer sitenin (ör. /chess-panel-serkan/)
+// önbelleği silinmesin.
+const PREFIX = "satranc:" + new URL(self.registration.scope).pathname + ":";
+const CACHE = PREFIX + VERSION;
 const CORE = ["./", "index.html", "manifest.webmanifest", "report.json", "puzzles.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/favicon.png"];
 
@@ -20,7 +23,10 @@ self.addEventListener("install", (e) => {
 
 self.addEventListener("activate", (e) => {
   e.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k !== CACHE) await caches.delete(k);
+    for (const k of await caches.keys()) {
+      // bu sitenin eski sürümleri + ilk sürümün önekli olmayan önbelleği ("satranc-<sürüm>")
+      if (k !== CACHE && (k.startsWith(PREFIX) || /^satranc-\d+$/.test(k))) await caches.delete(k);
+    }
     await self.clients.claim();
   })());
 });
