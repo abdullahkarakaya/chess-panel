@@ -1,0 +1,1694 @@
+{
+ "generated": "2026-11-20T21:31:43",
+ "games": 1000,
+ "total_games": 1000,
+ "results": {
+  "white": {
+   "win": 239,
+   "draw": 32,
+   "loss": 229
+  },
+  "all": {
+   "win": 476,
+   "draw": 50,
+   "loss": 474
+  },
+  "black": {
+   "win": 237,
+   "loss": 245,
+   "draw": 18
+  }
+ },
+ "avg_accuracy": 87.3,
+ "per_game": {
+  "inaccuracy": 2.08,
+  "mistake": 0.81,
+  "blunder": 1.11
+ },
+ "missed_per_game": 0.62,
+ "phases": {
+  "opening": {
+   "moves": 11904,
+   "accuracy": 88.5,
+   "blunder_rate": 1.6,
+   "mistake_rate": 1.6,
+   "share_of_blunders": 17.4
+  },
+  "middlegame": {
+   "moves": 14199,
+   "accuracy": 84.7,
+   "blunder_rate": 4.6,
+   "mistake_rate": 3.3,
+   "share_of_blunders": 59.2
+  },
+  "endgame": {
+   "moves": 10152,
+   "accuracy": 91.6,
+   "blunder_rate": 2.6,
+   "mistake_rate": 1.6,
+   "share_of_blunders": 23.4
+  }
+ },
+ "clock_buckets": [
+  {
+   "bucket": "<30 sn",
+   "moves": 312,
+   "accuracy": 91.4,
+   "blunder_rate": 3.8
+  },
+  {
+   "bucket": "30-60 sn",
+   "moves": 363,
+   "accuracy": 92.5,
+   "blunder_rate": 1.7
+  },
+  {
+   "bucket": "1-3 dk",
+   "moves": 1220,
+   "accuracy": 91.7,
+   "blunder_rate": 3.0
+  },
+  {
+   "bucket": "3-6 dk",
+   "moves": 6348,
+   "accuracy": 90.4,
+   "blunder_rate": 3.3
+  },
+  {
+   "bucket": "6+ dk",
+   "moves": 28012,
+   "accuracy": 87.0,
+   "blunder_rate": 3.0
+  }
+ ],
+ "think_time": [
+  {
+   "bucket": "<3 sn",
+   "moves": 9705,
+   "blunder_rate": 2.6,
+   "mistake_rate": 1.4
+  },
+  {
+   "bucket": "3-10 sn",
+   "moves": 8793,
+   "blunder_rate": 3.9,
+   "mistake_rate": 2.8
+  },
+  {
+   "bucket": "10-30 sn",
+   "moves": 4932,
+   "blunder_rate": 5.4,
+   "mistake_rate": 4.0
+  },
+  {
+   "bucket": "30-60 sn",
+   "moves": 780,
+   "blunder_rate": 6.8,
+   "mistake_rate": 4.0
+  },
+  {
+   "bucket": "60+ sn",
+   "moves": 141,
+   "blunder_rate": 6.4,
+   "mistake_rate": 8.5
+  }
+ ],
+ "timeout_losses": 14,
+ "conversion": {
+  "winning_games": 561,
+  "won": 443,
+  "drawn": 27,
+  "lost": 91,
+  "rate": 79.0
+ },
+ "comeback": {
+  "losing_games": 692,
+  "saved": 223,
+  "rate": 32.2
+ },
+ "loss_reasons": {
+  "terk": 374,
+  "mat": 85,
+  "süre": 14,
+  "bırakma": 1
+ },
+ "opponent_strength": [
+  {
+   "bucket": "100-200 zayıf",
+   "games": 1,
+   "score": 100.0
+  },
+  {
+   "bucket": "±100",
+   "games": 999,
+   "score": 50.1
+  }
+ ],
+ "openings": [
+  {
+   "color": "white",
+   "opening": "Italian Game",
+   "games": 90,
+   "score": 57.2,
+   "win": 50,
+   "loss": 37,
+   "accuracy": 87.7,
+   "opening_blunders_per_game": 0.36
+  },
+  {
+   "color": "black",
+   "opening": "Queens Pawn Opening",
+   "games": 83,
+   "score": 50.0,
+   "win": 40,
+   "loss": 40,
+   "accuracy": 88.5,
+   "opening_blunders_per_game": 0.29
+  },
+  {
+   "color": "white",
+   "opening": "Giuoco Piano Game",
+   "games": 80,
+   "score": 61.2,
+   "win": 47,
+   "loss": 29,
+   "accuracy": 88.2,
+   "opening_blunders_per_game": 0.23
+  },
+  {
+   "color": "black",
+   "opening": "Italian Game",
+   "games": 72,
+   "score": 38.9,
+   "win": 28,
+   "loss": 44,
+   "accuracy": 87.1,
+   "opening_blunders_per_game": 0.51
+  },
+  {
+   "color": "white",
+   "opening": "Sicilian Defense",
+   "games": 50,
+   "score": 54.0,
+   "win": 25,
+   "loss": 21,
+   "accuracy": 86.3,
+   "opening_blunders_per_game": 0.8
+  },
+  {
+   "color": "black",
+   "opening": "Scotch Game",
+   "games": 46,
+   "score": 46.7,
+   "win": 21,
+   "loss": 24,
+   "accuracy": 87.7,
+   "opening_blunders_per_game": 0.33
+  },
+  {
+   "color": "white",
+   "opening": "Caro Kann Defense",
+   "games": 42,
+   "score": 51.2,
+   "win": 21,
+   "loss": 20,
+   "accuracy": 87.7,
+   "opening_blunders_per_game": 0.26
+  },
+  {
+   "color": "white",
+   "opening": "Scandinavian Defense",
+   "games": 42,
+   "score": 50.0,
+   "win": 19,
+   "loss": 19,
+   "accuracy": 86.5,
+   "opening_blunders_per_game": 0.36
+  },
+  {
+   "color": "white",
+   "opening": "French Defense",
+   "games": 40,
+   "score": 38.8,
+   "win": 14,
+   "loss": 23,
+   "accuracy": 86.6,
+   "opening_blunders_per_game": 0.42
+  },
+  {
+   "color": "black",
+   "opening": "Giuoco Piano Game",
+   "games": 33,
+   "score": 53.0,
+   "win": 17,
+   "loss": 15,
+   "accuracy": 89.5,
+   "opening_blunders_per_game": 0.3
+  },
+  {
+   "color": "white",
+   "opening": "Philidor Defense",
+   "games": 32,
+   "score": 42.2,
+   "win": 11,
+   "loss": 16,
+   "accuracy": 86.9,
+   "opening_blunders_per_game": 0.47
+  },
+  {
+   "color": "black",
+   "opening": "Kings Pawn Opening",
+   "games": 27,
+   "score": 42.6,
+   "win": 10,
+   "loss": 14,
+   "accuracy": 86.5,
+   "opening_blunders_per_game": 0.41
+  },
+  {
+   "color": "black",
+   "opening": "Bishops Opening Berlin Defense",
+   "games": 25,
+   "score": 58.0,
+   "win": 14,
+   "loss": 10,
+   "accuracy": 89.5,
+   "opening_blunders_per_game": 0.48
+  },
+  {
+   "color": "black",
+   "opening": "Queens Gambit Declined Marshall Defense",
+   "games": 24,
+   "score": 64.6,
+   "win": 15,
+   "loss": 8,
+   "accuracy": 85.9,
+   "opening_blunders_per_game": 0.54
+  },
+  {
+   "color": "black",
+   "opening": "Ruy Lopez Opening Old Steinitz Defense",
+   "games": 23,
+   "score": 45.7,
+   "win": 10,
+   "loss": 12,
+   "accuracy": 88.3,
+   "opening_blunders_per_game": 0.22
+  },
+  {
+   "color": "white",
+   "opening": "Pirc Defense",
+   "games": 20,
+   "score": 45.0,
+   "win": 9,
+   "loss": 11,
+   "accuracy": 87.5,
+   "opening_blunders_per_game": 0.2
+  },
+  {
+   "color": "black",
+   "opening": "Bishops Opening",
+   "games": 19,
+   "score": 28.9,
+   "win": 5,
+   "loss": 13,
+   "accuracy": 86.3,
+   "opening_blunders_per_game": 0.32
+  },
+  {
+   "color": "white",
+   "opening": "Kings Pawn Opening",
+   "games": 16,
+   "score": 31.2,
+   "win": 4,
+   "loss": 10,
+   "accuracy": 87.6,
+   "opening_blunders_per_game": 0.69
+  },
+  {
+   "color": "black",
+   "opening": "Kings Gambit Declined Queens Knight Defense",
+   "games": 16,
+   "score": 56.2,
+   "win": 9,
+   "loss": 7,
+   "accuracy": 84.6,
+   "opening_blunders_per_game": 0.62
+  },
+  {
+   "color": "white",
+   "opening": "Modern Defense",
+   "games": 15,
+   "score": 53.3,
+   "win": 7,
+   "loss": 6,
+   "accuracy": 86.1,
+   "opening_blunders_per_game": 0.13
+  },
+  {
+   "color": "black",
+   "opening": "Nimzowitsch Larsen Attack",
+   "games": 12,
+   "score": 41.7,
+   "win": 5,
+   "loss": 7,
+   "accuracy": 86.8,
+   "opening_blunders_per_game": 0.25
+  },
+  {
+   "color": "white",
+   "opening": "Nimzowitsch Defense",
+   "games": 12,
+   "score": 33.3,
+   "win": 4,
+   "loss": 8,
+   "accuracy": 85.2,
+   "opening_blunders_per_game": 0.08
+  },
+  {
+   "color": "black",
+   "opening": "Ponziani Opening",
+   "games": 10,
+   "score": 40.0,
+   "win": 4,
+   "loss": 6,
+   "accuracy": 88.1,
+   "opening_blunders_per_game": 0.7
+  },
+  {
+   "color": "black",
+   "opening": "English Opening",
+   "games": 9,
+   "score": 55.6,
+   "win": 5,
+   "loss": 4,
+   "accuracy": 86.0,
+   "opening_blunders_per_game": 0.67
+  },
+  {
+   "color": "white",
+   "opening": "Owens Defense",
+   "games": 9,
+   "score": 38.9,
+   "win": 3,
+   "loss": 5,
+   "accuracy": 84.2,
+   "opening_blunders_per_game": 0.11
+  },
+  {
+   "color": "black",
+   "opening": "Vienna Game Anderssen Defense",
+   "games": 9,
+   "score": 88.9,
+   "win": 8,
+   "loss": 1,
+   "accuracy": 89.4,
+   "opening_blunders_per_game": 0.22
+  },
+  {
+   "color": "white",
+   "opening": "Bishops Opening",
+   "games": 8,
+   "score": 37.5,
+   "win": 2,
+   "loss": 4,
+   "accuracy": 85.8,
+   "opening_blunders_per_game": 0.25
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2026-06",
+   "games": 12,
+   "rating_end": 1469,
+   "accuracy": 86.5,
+   "score": 54.2,
+   "blunders_per_game": 0.75
+  },
+  {
+   "month": "2026-07",
+   "games": 183,
+   "rating_end": 1423,
+   "accuracy": 87.4,
+   "score": 48.4,
+   "blunders_per_game": 1.24
+  },
+  {
+   "month": "2026-08",
+   "games": 355,
+   "rating_end": 1477,
+   "accuracy": 87.0,
+   "score": 51.0,
+   "blunders_per_game": 1.08
+  },
+  {
+   "month": "2026-09",
+   "games": 270,
+   "rating_end": 1418,
+   "accuracy": 87.4,
+   "score": 49.1,
+   "blunders_per_game": 1.1
+  },
+  {
+   "month": "2026-10",
+   "games": 81,
+   "rating_end": 1466,
+   "accuracy": 88.0,
+   "score": 54.3,
+   "blunders_per_game": 0.95
+  },
+  {
+   "month": "2026-11",
+   "games": 99,
+   "rating_end": 1447,
+   "accuracy": 87.7,
+   "score": 49.0,
+   "blunders_per_game": 1.22
+  }
+ ],
+ "worst_blunders": [
+  {
+   "game": "https://www.chess.com/game/live/172391985038",
+   "ply": 34,
+   "move_no": 17,
+   "played": "Nxd3",
+   "uci": "f2d3",
+   "best_uci": "c8h3",
+   "opening": "Center Game Accepted Normal Variation",
+   "result": "win",
+   "best": "Bxh3",
+   "pv": "17...Bxh3 18. Nc3 Qh5 19. Rxf2 Bxf2 20. Be2 Qg5 21. Bg4",
+   "fen": "r1b1r1k1/2p2ppp/pb6/4p1q1/Q3P3/P2B2PP/1BP2n1K/RN3R2 b - - 0 17",
+   "win_before": 97.5,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 504.3
+  },
+  {
+   "game": "https://www.chess.com/game/live/173338270324",
+   "ply": 43,
+   "move_no": 22,
+   "played": "Qe7+",
+   "uci": "e3e7",
+   "best_uci": "e3d4",
+   "opening": "Modern Defense with 1 e4",
+   "result": "loss",
+   "best": "Qd4+",
+   "pv": "22. Qd4+ Nf6 23. Qxf6+ Kg8 24. Qf7#",
+   "fen": "r5nr/2pb2kp/p2p2p1/1p1P2B1/8/2PBQR2/q1P1KP2/8 w - - 4 22",
+   "win_before": 97.5,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 482.1
+  },
+  {
+   "game": "https://www.chess.com/game/live/174097468814",
+   "ply": 57,
+   "move_no": 29,
+   "played": "Qxd5",
+   "uci": "d7d5",
+   "best_uci": "d7d8",
+   "opening": "Scandinavian Defense",
+   "result": "loss",
+   "best": "Qd8+",
+   "pv": "29. Qd8+ Kg6 30. Qe8+ Kh6 31. Qxe5 Qb1+ 32. Kh2 Qc1",
+   "fen": "1N6/p2Q2pp/5k2/3pb3/4p3/1P1P3P/q1P1RPP1/6K1 w - - 3 29",
+   "win_before": 97.5,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 411.7
+  },
+  {
+   "game": "https://www.chess.com/game/live/184186424756",
+   "ply": 72,
+   "move_no": 36,
+   "played": "Qh3",
+   "uci": "f5h3",
+   "best_uci": "h7h1",
+   "opening": "Italian Game",
+   "result": "loss",
+   "best": "Rh1+",
+   "pv": "36...Rh1+ 37. Kxh1 Qh3+ 38. Kg1 Qg2#",
+   "fen": "8/2pk3r/3p4/4pq2/4Q3/3P1pP1/1PP2P2/R3R1K1 b - - 8 36",
+   "win_before": 97.5,
+   "win_after": 3.3,
+   "phase": "middlegame",
+   "clock": 373.8
+  },
+  {
+   "game": "https://www.chess.com/game/live/173355246628",
+   "ply": 53,
+   "move_no": 27,
+   "played": "Qf7",
+   "uci": "h7f7",
+   "best_uci": "c1c6",
+   "opening": "Indian Game",
+   "result": "loss",
+   "best": "Rxc6+",
+   "pv": "27. Rxc6+ Kxc6 28. Rc1+ Bc3 29. Rxc3+ Kb6 30. Qc7#",
+   "fen": "r1b5/7Q/p1pkpn2/3pp3/1P1b4/P2B1q2/5P1P/2R2RK1 w - - 6 27",
+   "win_before": 97.5,
+   "win_after": 4.1,
+   "phase": "middlegame",
+   "clock": 416.4
+  },
+  {
+   "game": "https://www.chess.com/game/live/174033188868",
+   "ply": 50,
+   "move_no": 25,
+   "played": "Kc6",
+   "uci": "d5c6",
+   "best_uci": "a7d4",
+   "opening": "Kings Gambit Declined Queens Knight Defense",
+   "result": "loss",
+   "best": "Bxd4",
+   "pv": "25...Bxd4 26. Be3 Qxf1+ 27. Rxf1 Bxe3 28. Rd1+ Bd4 29. h3",
+   "fen": "r6r/bp5p/p3b3/1q1k4/3Q1B2/8/PP4PP/3R1R1K b - - 0 25",
+   "win_before": 95.3,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 391.4
+  },
+  {
+   "game": "https://www.chess.com/game/live/174096158796",
+   "ply": 62,
+   "move_no": 31,
+   "played": "Kg8",
+   "uci": "f7g8",
+   "best_uci": "b6g6",
+   "opening": "Italian Game",
+   "result": "loss",
+   "best": "Qxg6",
+   "pv": "31...Qxg6 32. Bxg6+ Kxg6 33. Ra5 Rf6 34. Rc5 Rd6 35. Kh2",
+   "fen": "5r2/5kp1/bq4Qp/3R4/2p2p2/1p5P/1P4P1/1B5K b - - 5 31",
+   "win_before": 94.3,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 421.8
+  },
+  {
+   "game": "https://www.chess.com/game/live/174097751500",
+   "ply": 46,
+   "move_no": 23,
+   "played": "Nxe2+",
+   "uci": "c3e2",
+   "best_uci": "a5b6",
+   "opening": "Scotch Game",
+   "result": "loss",
+   "best": "Qb6+",
+   "pv": "23...Qb6+ 24. Qxb6 Nxe2+ 25. Kf2 axb6 26. Kxe2 Bd3+ 27. Kf2",
+   "fen": "r3r1k1/pp3p1p/5QpB/q2pP3/2p1bPP1/P1n4P/P3B3/R4RK1 b - - 1 23",
+   "win_before": 93.7,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 455.2
+  },
+  {
+   "game": "https://www.chess.com/game/live/174430806620",
+   "ply": 59,
+   "move_no": 30,
+   "played": "Qc5+",
+   "uci": "g5c5",
+   "best_uci": "d3d4",
+   "opening": "Italian Game Two Knights Modern Bishops Opening",
+   "result": "loss",
+   "best": "d4",
+   "pv": "30. d4 c6 31. Qe5+ Ke7 32. Re1 Rad8 33. f4 Rxd4",
+   "fen": "r7/pppr1p2/3kb3/6Q1/2P5/3P2P1/P4P1P/R5K1 w - - 2 30",
+   "win_before": 95.5,
+   "win_after": 4.8,
+   "phase": "middlegame",
+   "clock": 445.6
+  },
+  {
+   "game": "https://www.chess.com/game/live/184520957098",
+   "ply": 62,
+   "move_no": 31,
+   "played": "hxg5",
+   "uci": "h6g5",
+   "best_uci": "a3f3",
+   "opening": "Scotch Game",
+   "result": "loss",
+   "best": "Qxf3",
+   "pv": "31...Qxf3 32. Bxd8 Qxh3 33. Re1 Qxg4+ 34. Kf1 Qf3 35. Re3",
+   "fen": "3r2k1/5pp1/p2p3p/2p3B1/2P1P1P1/q4Q1P/5P2/2R3K1 b - - 0 31",
+   "win_before": 94.3,
+   "win_after": 3.6,
+   "phase": "middlegame",
+   "clock": 390.2
+  },
+  {
+   "game": "https://www.chess.com/game/live/173231556172",
+   "ply": 54,
+   "move_no": 27,
+   "played": "Qc4",
+   "uci": "e6c4",
+   "best_uci": "e6e2",
+   "opening": "Bishops Opening Berlin Defense",
+   "result": "win",
+   "best": "Qe2",
+   "pv": "27...Qe2 28. Re1 Nf5 29. Rxe2 Nxh4 30. Rxe8 Rxe8 31. Bxc7",
+   "fen": "r3r3/1pp1npk1/p3q1b1/2p3Np/5B1Q/2P4P/PP4P1/5R1K b - - 3 27",
+   "win_before": 94.6,
+   "win_after": 4.5,
+   "phase": "middlegame",
+   "clock": 349.5
+  },
+  {
+   "game": "https://www.chess.com/game/live/174523295888",
+   "ply": 63,
+   "move_no": 32,
+   "played": "b3",
+   "uci": "b2b3",
+   "best_uci": "h5h6",
+   "opening": "Sicilian Defense Old Sicilian Variation",
+   "result": "loss",
+   "best": "Rh6+",
+   "pv": "32. Rh6+ Kc7 33. f4 Nb6+ 34. Rxb6 Kxb6 35. fxe5 a5",
+   "fen": "8/1p1n4/p1k5/4p2R/1PKpP3/3P1P2/1P3P2/8 w - - 0 32",
+   "win_before": 92.5,
+   "win_after": 2.5,
+   "phase": "endgame",
+   "clock": 496.9
+  },
+  {
+   "game": "https://www.chess.com/game/live/173217465958",
+   "ply": 56,
+   "move_no": 28,
+   "played": "Qb2+",
+   "uci": "b6b2",
+   "best_uci": "b6b3",
+   "opening": "Queens Pawn Opening Zukertort Chigorin Variation",
+   "result": "loss",
+   "best": "Qb3",
+   "pv": "28...Qb3 29. Qf6+ Kxf6 30. e5+ Ke7 31. a4 Qb2#",
+   "fen": "2r5/4kpQ1/1q2p1p1/p2p4/4PP2/P5P1/2r4P/K2R3R b - - 4 28",
+   "win_before": 97.5,
+   "win_after": 8.0,
+   "phase": "middlegame",
+   "clock": 480.8
+  },
+  {
+   "game": "https://www.chess.com/game/live/186939605948",
+   "ply": 48,
+   "move_no": 24,
+   "played": "Bf6",
+   "uci": "e7f6",
+   "best_uci": "a1f1",
+   "opening": "Scotch Game",
+   "result": "loss",
+   "best": "Qf1",
+   "pv": "24...Qf1 25. Nd2 Qf8 26. Bxa8 Qxa8 27. Nf3 Bf8 28. h3",
+   "fen": "r6k/p2Qb1pp/1p4r1/2pB4/4N3/8/P1P3PP/q5BK b - - 4 24",
+   "win_before": 91.0,
+   "win_after": 2.8,
+   "phase": "middlegame",
+   "clock": 408.8
+  },
+  {
+   "game": "https://www.chess.com/game/live/180011077588",
+   "ply": 52,
+   "move_no": 26,
+   "played": "Qf5",
+   "uci": "d7f5",
+   "best_uci": "f6f5",
+   "opening": "Four Knights Game Scotch Variation Accepted",
+   "result": "loss",
+   "best": "f5",
+   "pv": "26...f5 27. Qb2+ f6 28. Qxf6+ Qg7 29. Qxg7+ Kxg7 30. Kf2",
+   "fen": "r2r3k/3q1p1p/3p1p2/2pP4/2P4R/1P3P2/6PP/1Q4K1 b - - 3 26",
+   "win_before": 92.7,
+   "win_after": 4.8,
+   "phase": "middlegame",
+   "clock": 488.0
+  },
+  {
+   "game": "https://www.chess.com/game/live/172720721190",
+   "ply": 137,
+   "move_no": 69,
+   "played": "Qxe7+",
+   "uci": "c5e7",
+   "best_uci": "c7d8",
+   "opening": "Caro Kann Defense Advance Botvinnik Carls Defense",
+   "result": "loss",
+   "best": "Kd8",
+   "pv": "69. Kd8 Kg8 70. Kxe7 f6 71. Kxf6 Kh8 72. Qe5 Kg8",
+   "fen": "5k2/2K1rp2/6p1/2Q5/7P/8/8/8 w - - 33 69",
+   "win_before": 97.5,
+   "win_after": 11.0,
+   "phase": "endgame",
+   "clock": 292.1
+  },
+  {
+   "game": "https://www.chess.com/game/live/186119740874",
+   "ply": 92,
+   "move_no": 46,
+   "played": "Qf4+",
+   "uci": "f2f4",
+   "best_uci": "c4c3",
+   "opening": "Italian Game",
+   "result": "win",
+   "best": "c3",
+   "pv": "46...c3 47. d6 c2 48. d7 Qe3+ 49. Re4 Qc5+ 50. Kf6",
+   "fen": "8/8/7p/kp1PK1p1/2pR4/8/5q2/8 b - - 9 46",
+   "win_before": 97.5,
+   "win_after": 11.1,
+   "phase": "endgame",
+   "clock": 394.5
+  },
+  {
+   "game": "https://www.chess.com/game/live/174032969682",
+   "ply": 45,
+   "move_no": 23,
+   "played": "Re3",
+   "uci": "e4e3",
+   "best_uci": "e4d4",
+   "opening": "French Defense Normal Variation",
+   "result": "loss",
+   "best": "Rxd4",
+   "pv": "23. Rxd4 Rc8 24. Rd1 Bc4 25. Bc5 Bd5 26. Raa1",
+   "fen": "3r2k1/Rpp2ppp/b3p3/4P3/1B1rR3/7P/2P2PP1/6K1 w - - 5 23",
+   "win_before": 93.5,
+   "win_after": 7.2,
+   "phase": "endgame",
+   "clock": 436.7
+  },
+  {
+   "game": "https://www.chess.com/game/live/173590345730",
+   "ply": 59,
+   "move_no": 30,
+   "played": "Kxg3",
+   "uci": "g2g3",
+   "best_uci": "f2g3",
+   "opening": "Sicilian Defense Old Sicilian Variation",
+   "result": "loss",
+   "best": "fxg3",
+   "pv": "30. fxg3 Kg8 31. Bxd5 Nf8 32. Ne4 Bg7 33. Nd6 Re2+",
+   "fen": "4r2k/1p1q1p1n/p4b2/2pp3Q/8/P2P1Pr1/BPPN1PK1/7R w - - 0 30",
+   "win_before": 91.7,
+   "win_after": 6.0,
+   "phase": "middlegame",
+   "clock": 395.5
+  },
+  {
+   "game": "https://www.chess.com/game/live/187076403394",
+   "ply": 87,
+   "move_no": 44,
+   "played": "Bg5",
+   "uci": "f4g5",
+   "best_uci": "d6b8",
+   "opening": "Italian Game",
+   "result": "loss",
+   "best": "Qb8+",
+   "pv": "44. Qb8+ Qxb8 45. Bxb8 Kg8 46. c5 f5 47. gxf5 Kf7",
+   "fen": "q6k/6p1/3Q1p1p/3P3P/2P2BP1/2KP1P2/8/4r3 w - - 5 44",
+   "win_before": 92.7,
+   "win_after": 7.2,
+   "phase": "endgame",
+   "clock": 133.9
+  },
+  {
+   "game": "https://www.chess.com/game/live/172719171282",
+   "ply": 45,
+   "move_no": 23,
+   "played": "Rxf8+",
+   "uci": "f1f8",
+   "best_uci": "d3h7",
+   "opening": "French Defense Advance Nimzowitsch System",
+   "result": "loss",
+   "best": "Bxh7+",
+   "pv": "23. Bxh7+ Qxh7 24. Rxf8+ Kxf8 25. Qxh7 gxh3 26. Qh8+ Kf7",
+   "fen": "5rk1/p2b2pp/2p1p3/3p3q/6p1/2PB3P/PPQ5/5R1K w - - 0 23",
+   "win_before": 96.3,
+   "win_after": 11.0,
+   "phase": "middlegame",
+   "clock": 400.1
+  },
+  {
+   "game": "https://www.chess.com/game/live/173215255866",
+   "ply": 68,
+   "move_no": 34,
+   "played": "Qxe4+",
+   "uci": "c4e4",
+   "best_uci": "b7b5",
+   "opening": "Giuoco Piano Game Giuoco Pianissimo Italian Four Knights Canal Variation",
+   "result": "loss",
+   "best": "b5",
+   "pv": "34...b5 35. Qxh5 Qxe4+ 36. Kc1 Kb6 37. Qd1 a5 38. Qg1+",
+   "fen": "8/kpp4Q/p2p4/4p2p/2q1P3/P1P5/1P6/1K6 b - - 4 34",
+   "win_before": 88.6,
+   "win_after": 4.1,
+   "phase": "endgame",
+   "clock": 433.9
+  },
+  {
+   "game": "https://www.chess.com/game/live/174413836546",
+   "ply": 39,
+   "move_no": 20,
+   "played": "Ne2",
+   "uci": "c3e2",
+   "best_uci": "e3d4",
+   "opening": "Sicilian Defense Bowdler Attack",
+   "result": "loss",
+   "best": "Bxd4",
+   "pv": "20. Bxd4 bxc3 21. Bxf6 gxf6 22. Qxf6 cxb2+ 23. Kb1 O-O",
+   "fen": "r3k2r/1bq2pp1/p3pb1p/8/1p1nP1P1/2NPB2P/BPP2Q2/2K2R1R w kq - 0 20",
+   "win_before": 86.4,
+   "win_after": 2.5,
+   "phase": "middlegame",
+   "clock": 447.2
+  },
+  {
+   "game": "https://www.chess.com/game/live/180011305926",
+   "ply": 47,
+   "move_no": 24,
+   "played": "Nf4",
+   "uci": "e2f4",
+   "best_uci": "g3g5",
+   "opening": "Nimzowitsch Defense Declined",
+   "result": "loss",
+   "best": "Qxg5",
+   "pv": "24. Qxg5 hxg5 25. Rhxf1 Rc7 26. Nd6 Bc8 27. Bd5 Be6",
+   "fen": "2r2rk1/1b3pp1/p1n4p/2p2Nq1/Pp1pP3/3P2Q1/BPP1N1PP/2K1Rn1R w - - 1 24",
+   "win_before": 93.2,
+   "win_after": 9.4,
+   "phase": "middlegame",
+   "clock": 472.3
+  },
+  {
+   "game": "https://www.chess.com/game/live/187466014676",
+   "ply": 63,
+   "move_no": 32,
+   "played": "d6",
+   "uci": "d5d6",
+   "best_uci": "e4c2",
+   "opening": "Kings Pawn Opening St George Defense",
+   "result": "win",
+   "best": "Bxc2",
+   "pv": "32. Bxc2 Bxd5 33. Rxa6 Rc8 34. Bb1 b4 35. Kh2 Rc7",
+   "fen": "7r/1b2nkp1/p4p1p/1p1Pp3/4B3/R5BP/2r3P1/3R3K w - - 0 32",
+   "win_before": 88.0,
+   "win_after": 4.7,
+   "phase": "middlegame",
+   "clock": 255.1
+  },
+  {
+   "game": "https://www.chess.com/game/live/184661950040",
+   "ply": 33,
+   "move_no": 17,
+   "played": "Qe3",
+   "uci": "e2e3",
+   "best_uci": "c4e6",
+   "opening": "Italian Game",
+   "result": "win",
+   "best": "Bxe6+",
+   "pv": "17. Bxe6+ Qxe6 18. Rxe6 Nxe2+ 19. Rxe2 Rf4 20. Bc1 Ra4",
+   "fen": "r4rk1/pp1q2p1/2p1b2p/4R3/2B2n2/2P4P/PBP1QPP1/R5K1 w - - 2 17",
+   "win_before": 93.3,
+   "win_after": 10.2,
+   "phase": "middlegame",
+   "clock": 520.3
+  },
+  {
+   "game": "https://www.chess.com/game/live/171787344444",
+   "ply": 56,
+   "move_no": 28,
+   "played": "Qe5",
+   "uci": "g5e5",
+   "best_uci": "e2e1",
+   "opening": "Kings Gambit Declined Queens Knight Defense",
+   "result": "win",
+   "best": "Re1",
+   "pv": "28...Re1 29. Qc4 Rxf1+ 30. Qxf1 Qh4 31. Ra8 Re1 32. Qxe1",
+   "fen": "1R6/5p1k/2p2Ppp/p5q1/N5Q1/4r2P/PP2r1P1/5R1K b - - 7 28",
+   "win_before": 89.5,
+   "win_after": 6.6,
+   "phase": "middlegame",
+   "clock": 414.5
+  },
+  {
+   "game": "https://www.chess.com/game/live/171917270860",
+   "ply": 34,
+   "move_no": 17,
+   "played": "Qg5+",
+   "uci": "d8g5",
+   "best_uci": "e4g5",
+   "opening": "Italian Game",
+   "result": "loss",
+   "best": "Ng5",
+   "pv": "17...Ng5 18. Qg3 Qf6 19. Kg2 Rf8 20. Bxg5 Qxg5 21. Qxg5",
+   "fen": "r2q2k1/ppp3p1/4p2p/3p4/4n3/5P1P/PPP5/R1B1Q1K1 b - - 0 17",
+   "win_before": 88.5,
+   "win_after": 6.0,
+   "phase": "middlegame",
+   "clock": 519.4
+  },
+  {
+   "game": "https://www.chess.com/game/live/174143470054",
+   "ply": 64,
+   "move_no": 32,
+   "played": "g5",
+   "uci": "g6g5",
+   "best_uci": "d6c7",
+   "opening": "Anderssen Opening Creepy Crawly Formation Classical Defense",
+   "result": "loss",
+   "best": "Bc7",
+   "pv": "32...Bc7 33. c3 Rae8 34. Qg3 Kh7 35. Qf3 Qe6 36. Nf5",
+   "fen": "r6r/4qpk1/p2b2pp/4p3/2NpP2N/PP6/K1P2P1Q/2B5 b - - 0 32",
+   "win_before": 89.8,
+   "win_after": 7.3,
+   "phase": "middlegame",
+   "clock": 223.5
+  },
+  {
+   "game": "https://www.chess.com/game/live/172922652440",
+   "ply": 29,
+   "move_no": 15,
+   "played": "Rxb7",
+   "uci": "b1b7",
+   "best_uci": "a1a2",
+   "opening": "Sicilian Defense Hyperaccelerated Dragon Variation",
+   "result": "win",
+   "best": "Ra2",
+   "pv": "15. Ra2 Qxb1+ 16. Nxb1 Nf6 17. Qe3 O-O 18. e5 Nd7",
+   "fen": "r3k1nr/1p2ppbp/p2p2p1/2p5/2P1P3/P1N3QP/2qB1PP1/RR4K1 w kq - 0 15",
+   "win_before": 89.7,
+   "win_after": 7.3,
+   "phase": "middlegame",
+   "clock": 528.9
+  }
+ ],
+ "motifs": [
+  {
+   "motif": "hanging",
+   "name": "Taş bıraktı",
+   "count": 349,
+   "per_100": 34.9,
+   "in_lost_games": 196,
+   "cost": 14029
+  },
+  {
+   "motif": "unpunished",
+   "name": "Rakibin hatasını cezalandırmadı",
+   "count": 358,
+   "per_100": 35.8,
+   "in_lost_games": 128,
+   "cost": 12616
+  },
+  {
+   "motif": "wasted_advantage",
+   "name": "Üstün pozisyonda gevşedi",
+   "count": 309,
+   "per_100": 30.9,
+   "in_lost_games": 83,
+   "cost": 10669
+  },
+  {
+   "motif": "allowed_tactic",
+   "name": "Rakibin tehdidini / kombinezonunu görmedi",
+   "count": 232,
+   "per_100": 23.2,
+   "in_lost_games": 129,
+   "cost": 8782
+  },
+  {
+   "motif": "positional",
+   "name": "Pozisyonel / uzun vadeli hata",
+   "count": 326,
+   "per_100": 32.6,
+   "in_lost_games": 148,
+   "cost": 7920
+  },
+  {
+   "motif": "allowed_fork",
+   "name": "Çatala yakalandı",
+   "count": 109,
+   "per_100": 10.9,
+   "in_lost_games": 63,
+   "cost": 4242
+  },
+  {
+   "motif": "missed_capture",
+   "name": "Bedava taşı almadı",
+   "count": 75,
+   "per_100": 7.5,
+   "in_lost_games": 41,
+   "cost": 3344
+  },
+  {
+   "motif": "allowed_mate",
+   "name": "Mat tehdidini görmedi",
+   "count": 57,
+   "per_100": 5.7,
+   "in_lost_games": 40,
+   "cost": 2906
+  },
+  {
+   "motif": "missed_mate",
+   "name": "Matı kaçırdı",
+   "count": 27,
+   "per_100": 2.7,
+   "in_lost_games": 11,
+   "cost": 1641
+  },
+  {
+   "motif": "missed_fork",
+   "name": "Çatalı kaçırdı",
+   "count": 35,
+   "per_100": 3.5,
+   "in_lost_games": 21,
+   "cost": 1610
+  },
+  {
+   "motif": "allowed_pin",
+   "name": "Açmaz/şişe yakalandı",
+   "count": 38,
+   "per_100": 3.8,
+   "in_lost_games": 24,
+   "cost": 1285
+  },
+  {
+   "motif": "missed_pin",
+   "name": "Açmazı kaçırdı",
+   "count": 13,
+   "per_100": 1.3,
+   "in_lost_games": 6,
+   "cost": 524
+  }
+ ],
+ "opening_mistakes": [
+  {
+   "fen": "r1bqkbnr/pppp1ppp/8/8/3QP3/8/PPP2PPP/RNB1KB1R b KQkq - 0 5",
+   "color": "black",
+   "opening": "Scotch Game",
+   "times": 33,
+   "played": {
+    "c5": 33
+   },
+   "usual": "c5",
+   "usual_count": 33,
+   "usual_drop": 9.9,
+   "best": "Qf6",
+   "best_uci": "d8f6",
+   "pv": "5...Qf6 6. Qc4 b6 7. Qxc7 Bd6 8. Qc4 Bb7 9. Nc3",
+   "win_before": 43.2,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4",
+   "ply": 10,
+   "results": {
+    "win": 15,
+    "draw": 0,
+    "loss": 18
+   },
+   "cost": 326.3,
+   "game": "https://www.chess.com/game/live/187008885710"
+  },
+  {
+   "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+   "color": "white",
+   "opening": "Scandinavian Defense",
+   "times": 50,
+   "played": {
+    "e5": 49,
+    "exd5": 1
+   },
+   "usual": "e5",
+   "usual_count": 49,
+   "usual_drop": 6.6,
+   "best": "exd5",
+   "best_uci": "e4d5",
+   "pv": "2. exd5 Qxd5 3. Nc3 Qd8 4. d4 Nf6 5. Nf3 a6",
+   "win_before": 57.0,
+   "line": "1. e4 d5",
+   "ply": 3,
+   "results": {
+    "win": 23,
+    "draw": 5,
+    "loss": 22
+   },
+   "cost": 324.3,
+   "game": "https://www.chess.com/game/live/187125573178"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1pp1/7p/8/2BQP3/8/PPP2PPP/RNB1K2R b KQkq - 0 6",
+   "color": "black",
+   "opening": "Italian Game",
+   "times": 19,
+   "played": {
+    "c5": 19
+   },
+   "usual": "c5",
+   "usual_count": 19,
+   "usual_drop": 13.1,
+   "best": "Ne7",
+   "best_uci": "g8e7",
+   "pv": "6...Ne7 7. Nc3 Nc6 8. Qe3 Bb4 9. O-O O-O 10. Nd5",
+   "win_before": 37.2,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 exd4 5. Nxd4 Nxd4 6. Qxd4",
+   "ply": 12,
+   "results": {
+    "win": 7,
+    "draw": 0,
+    "loss": 12
+   },
+   "cost": 249.4,
+   "game": "https://www.chess.com/game/live/187125443590"
+  },
+  {
+   "fen": "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+   "color": "white",
+   "opening": "Bishops Opening Berlin Defense",
+   "times": 14,
+   "played": {
+    "Bc4": 14
+   },
+   "usual": "Bc4",
+   "usual_count": 14,
+   "usual_drop": 14.6,
+   "best": "Nxe5",
+   "best_uci": "f3e5",
+   "pv": "3. Nxe5 Nc6 4. Nf3 d5 5. exd5 Qxd5 6. Be2 Nd4",
+   "win_before": 65.3,
+   "line": "1. e4 e5 2. Nf3 Bc5",
+   "ply": 5,
+   "results": {
+    "win": 5,
+    "draw": 1,
+    "loss": 8
+   },
+   "cost": 204.2,
+   "game": "https://www.chess.com/game/live/187111600692"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+   "color": "black",
+   "opening": "Scotch Game",
+   "times": 33,
+   "played": {
+    "Nxd4": 33
+   },
+   "usual": "Nxd4",
+   "usual_count": 33,
+   "usual_drop": 5.3,
+   "best": "Nf6",
+   "best_uci": "g8f6",
+   "pv": "4...Nf6 5. Nxc6 bxc6 6. Bd3 d5 7. exd5 cxd5 8. O-O",
+   "win_before": 50.0,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4",
+   "ply": 8,
+   "results": {
+    "win": 15,
+    "draw": 0,
+    "loss": 18
+   },
+   "cost": 173.6,
+   "game": "https://www.chess.com/game/live/187008885710"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1pp1/2n4p/8/2BNP3/8/PPP2PPP/RNBQK2R b KQkq - 0 5",
+   "color": "black",
+   "opening": "Italian Game",
+   "times": 19,
+   "played": {
+    "Nxd4": 19
+   },
+   "usual": "Nxd4",
+   "usual_count": 19,
+   "usual_drop": 6.1,
+   "best": "Nf6",
+   "best_uci": "g8f6",
+   "pv": "5...Nf6 6. Nxc6 bxc6 7. Nc3 d6 8. Bf4 Nd7 9. Qf3",
+   "win_before": 45.0,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 exd4 5. Nxd4",
+   "ply": 10,
+   "results": {
+    "win": 7,
+    "draw": 0,
+    "loss": 12
+   },
+   "cost": 115.7,
+   "game": "https://www.chess.com/game/live/187125443590"
+  },
+  {
+   "fen": "r1bqkb1r/pppp1pp1/2n2n1p/4P3/2Bp4/5N2/PPP2PPP/RNBQ1RK1 b kq - 0 6",
+   "color": "black",
+   "opening": "Scotch Game Scotch Gambit",
+   "times": 6,
+   "played": {
+    "Ng4": 6
+   },
+   "usual": "Ng4",
+   "usual_count": 6,
+   "usual_drop": 16.9,
+   "best": "d5",
+   "best_uci": "d7d5",
+   "pv": "6...d5 7. Bb5 Nd7 8. Bxc6 bxc6 9. Nxd4 Nb8 10. Nc3",
+   "win_before": 42.3,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4 h6 5. O-O Nf6 6. e5",
+   "ply": 12,
+   "results": {
+    "win": 4,
+    "draw": 0,
+    "loss": 2
+   },
+   "cost": 101.2,
+   "game": "https://www.chess.com/game/live/184267909592"
+  },
+  {
+   "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+   "color": "black",
+   "opening": "Kings Gambit Declined Queens Knight Defense",
+   "times": 16,
+   "played": {
+    "Nc6": 16
+   },
+   "usual": "Nc6",
+   "usual_count": 16,
+   "usual_drop": 5.6,
+   "best": "exf4",
+   "best_uci": "e5f4",
+   "pv": "2...exf4 3. Bc4 Nc6 4. d4 Nf6 5. Nc3 Bb4 6. Ne2",
+   "win_before": 53.2,
+   "line": "1. e4 e5 2. f4",
+   "ply": 4,
+   "results": {
+    "win": 9,
+    "draw": 0,
+    "loss": 7
+   },
+   "cost": 89.8,
+   "game": "https://www.chess.com/game/live/186670019214"
+  },
+  {
+   "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 2 3",
+   "color": "black",
+   "opening": "Queens Gambit Declined Marshall Defense",
+   "times": 22,
+   "played": {
+    "Bf5": 17,
+    "e6": 5
+   },
+   "usual": "Bf5",
+   "usual_count": 17,
+   "usual_drop": 5.2,
+   "best": "dxc4",
+   "best_uci": "d5c4",
+   "pv": "3...dxc4 4. e3 a6 5. Bxc4 e6 6. Bd3 c5 7. Nf3",
+   "win_before": 49.3,
+   "line": "1. d4 d5 2. c4 Nf6 3. Nc3",
+   "ply": 6,
+   "results": {
+    "win": 18,
+    "draw": 1,
+    "loss": 3
+   },
+   "cost": 89.2,
+   "game": "https://www.chess.com/game/live/186981061940"
+  },
+  {
+   "fen": "r1bqkb1r/pppp1pp1/2n2n1p/4P3/2Bp4/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 6",
+   "color": "black",
+   "opening": "Italian Game",
+   "times": 4,
+   "played": {
+    "Ng4": 4
+   },
+   "usual": "Ng4",
+   "usual_count": 4,
+   "usual_drop": 16.7,
+   "best": "d5",
+   "best_uci": "d7d5",
+   "pv": "6...d5 7. Bb5 Ne4 8. Nxd4 Bd7 9. Bxc6 bxc6 10. O-O",
+   "win_before": 47.1,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. c3 Nf6 5. d4 exd4 6. e5",
+   "ply": 12,
+   "results": {
+    "win": 1,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 66.8,
+   "game": "https://www.chess.com/game/live/185987896524"
+  },
+  {
+   "fen": "rn1qkb1r/ppp1pppp/5n2/3p1b2/2PP4/2N2P2/PP2P1PP/R1BQKBNR b KQkq - 0 4",
+   "color": "black",
+   "opening": "Queens Gambit Declined Marshall Defense",
+   "times": 3,
+   "played": {
+    "h6": 3
+   },
+   "usual": "h6",
+   "usual_count": 3,
+   "usual_drop": 20.4,
+   "best": "e6",
+   "best_uci": "e7e6",
+   "pv": "4...e6 5. cxd5 exd5 6. g4 Bg6 7. h4 h6 8. Bf4",
+   "win_before": 49.5,
+   "line": "1. d4 d5 2. c4 Nf6 3. Nc3 Bf5 4. f3",
+   "ply": 8,
+   "results": {
+    "win": 2,
+    "draw": 1,
+    "loss": 0
+   },
+   "cost": 61.1,
+   "game": "https://www.chess.com/game/live/173762794170"
+  },
+  {
+   "fen": "r1bqkb1r/pppp1pp1/5n1p/8/2BQP3/2N5/PPP2PPP/R1B1K2R b KQkq - 0 7",
+   "color": "black",
+   "opening": "Italian Game",
+   "times": 4,
+   "played": {
+    "c5": 4
+   },
+   "usual": "c5",
+   "usual_count": 4,
+   "usual_drop": 15.0,
+   "best": "d6",
+   "best_uci": "d7d6",
+   "pv": "7...d6 8. e5 c5 9. Qd3 dxe5 10. Bxf7+ Ke7 11. Bd5",
+   "win_before": 35.5,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. Nc3 Nf6 5. d4 exd4 6. Nxd4 Nxd4 7. Qxd4",
+   "ply": 14,
+   "results": {
+    "win": 1,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 60.2,
+   "game": "https://www.chess.com/game/live/186118892282"
+  },
+  {
+   "fen": "r1bqkbnr/ppp2ppp/2np4/1B2p3/3PP3/5N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+   "color": "black",
+   "opening": "Ruy Lopez Opening Old Steinitz Defense",
+   "times": 9,
+   "played": {
+    "Bg4": 2,
+    "a6": 5,
+    "Bd7": 1,
+    "Nf6": 1
+   },
+   "usual": "a6",
+   "usual_count": 5,
+   "usual_drop": 11.6,
+   "best": "exd4",
+   "best_uci": "e5d4",
+   "pv": "4...exd4 5. O-O Bg4 6. h3 Bxf3 7. Qxf3 Be7 8. c3",
+   "win_before": 44.2,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bb5 d6 4. d4",
+   "ply": 8,
+   "results": {
+    "win": 6,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 57.8,
+   "game": "https://www.chess.com/game/live/187476837168"
+  },
+  {
+   "fen": "rnbqk2r/pppp1ppp/5n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+   "color": "white",
+   "opening": "Bishops Opening Berlin Defense",
+   "times": 4,
+   "played": {
+    "d3": 4
+   },
+   "usual": "d3",
+   "usual_count": 4,
+   "usual_drop": 13.5,
+   "best": "Nxe5",
+   "best_uci": "f3e5",
+   "pv": "4. Nxe5 O-O 5. d4 Bb6 6. Nxf7 Qe7 7. Ne5+ Kh8",
+   "win_before": 63.6,
+   "line": "1. e4 e5 2. Nf3 Bc5 3. Bc4 Nf6",
+   "ply": 7,
+   "results": {
+    "win": 2,
+    "draw": 0,
+    "loss": 2
+   },
+   "cost": 54.0,
+   "game": "https://www.chess.com/game/live/187111600692"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+   "color": "white",
+   "opening": "Italian Game",
+   "times": 12,
+   "played": {
+    "d3": 7,
+    "Nxd4": 2,
+    "Nc3": 3
+   },
+   "usual": "d3",
+   "usual_count": 7,
+   "usual_drop": 7.2,
+   "best": "Nxd4",
+   "best_uci": "f3d4",
+   "pv": "4. Nxd4 exd4 5. O-O Nf6 6. Re1 d6 7. c3 Be7",
+   "win_before": 60.3,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Nd4",
+   "ply": 7,
+   "results": {
+    "win": 6,
+    "draw": 2,
+    "loss": 4
+   },
+   "cost": 50.3,
+   "game": "https://www.chess.com/game/live/186282420502"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+   "color": "black",
+   "opening": "Scotch Game Scotch Gambit",
+   "times": 7,
+   "played": {
+    "h6": 7
+   },
+   "usual": "h6",
+   "usual_count": 7,
+   "usual_drop": 6.6,
+   "best": "Nf6",
+   "best_uci": "g8f6",
+   "pv": "4...Nf6 5. e5 Ng4 6. O-O Be7 7. Re1 d6 8. exd6",
+   "win_before": 49.4,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4",
+   "ply": 8,
+   "results": {
+    "win": 4,
+    "draw": 1,
+    "loss": 2
+   },
+   "cost": 46.0,
+   "game": "https://www.chess.com/game/live/187492313710"
+  },
+  {
+   "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+   "color": "black",
+   "opening": "Scandinavian Defense Mieses Kotrc Variation",
+   "times": 5,
+   "played": {
+    "Bg4": 2,
+    "d4": 3
+   },
+   "usual": "d4",
+   "usual_count": 3,
+   "usual_drop": 15.1,
+   "best": "dxe4",
+   "best_uci": "d5e4",
+   "pv": "2...dxe4 3. Ng5 e5 4. Nxe4 f5 5. Nec3 Nc6 6. Bb5",
+   "win_before": 58.1,
+   "line": "1. Nf3 d5 2. e4",
+   "ply": 4,
+   "results": {
+    "win": 2,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 45.3,
+   "game": "https://www.chess.com/game/live/185979188646"
+  },
+  {
+   "fen": "r1bqkb1r/pp1p1pp1/5n1p/2p5/2B1P3/3Q4/PPP2PPP/RNB2RK1 b kq - 1 8",
+   "color": "black",
+   "opening": "Italian Game",
+   "times": 3,
+   "played": {
+    "Be7": 3
+   },
+   "usual": "Be7",
+   "usual_count": 3,
+   "usual_drop": 14.5,
+   "best": "d6",
+   "best_uci": "d7d6",
+   "pv": "8...d6 9. e5 dxe5 10. Bxf7+ Ke7 11. Qb3 Qb6 12. Bg6",
+   "win_before": 27.7,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. O-O Nf6 5. d4 exd4 6. Nxd4 Nxd4 7. Qxd4 c5 8. Qd3",
+   "ply": 16,
+   "results": {
+    "win": 1,
+    "draw": 0,
+    "loss": 2
+   },
+   "cost": 43.6,
+   "game": "https://www.chess.com/game/live/173798923022"
+  },
+  {
+   "fen": "r1bqkbnr/pppp1ppp/2n5/6N1/3pP3/8/PPP2PPP/RNBQKB1R b KQkq - 1 4",
+   "color": "black",
+   "opening": "Scotch Game",
+   "times": 5,
+   "played": {
+    "f6": 3,
+    "h6": 1,
+    "Nf6": 1
+   },
+   "usual": "f6",
+   "usual_count": 3,
+   "usual_drop": 13.3,
+   "best": "Be7",
+   "best_uci": "f8e7",
+   "pv": "4...Be7 5. Nf3 Nf6 6. Nbd2 O-O 7. Bd3 d5 8. O-O",
+   "win_before": 65.8,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Ng5",
+   "ply": 8,
+   "results": {
+    "win": 2,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 39.9,
+   "game": "https://www.chess.com/game/live/187615036964"
+  },
+  {
+   "fen": "r1bqkbnr/pp1p1ppp/8/2p5/4P3/3Q4/PPP2PPP/RNB1KB1R b KQkq - 1 6",
+   "color": "black",
+   "opening": "Scotch Game",
+   "times": 6,
+   "played": {
+    "Nf6": 6
+   },
+   "usual": "Nf6",
+   "usual_count": 6,
+   "usual_drop": 6.3,
+   "best": "d5",
+   "best_uci": "d7d5",
+   "pv": "6...d5 7. exd5 Bd6 8. Nc3 Ne7 9. Bd2 O-O 10. O-O-O",
+   "win_before": 37.4,
+   "line": "1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4 5. Qxd4 c5 6. Qd3",
+   "ply": 12,
+   "results": {
+    "win": 3,
+    "draw": 0,
+    "loss": 3
+   },
+   "cost": 38.0,
+   "game": "https://www.chess.com/game/live/174430185644"
+  }
+ ],
+ "plan": {
+  "focus": [
+   {
+    "motif": "hanging",
+    "title": "Taş güvenliği",
+    "tip": "Her hamleden önce iki soru: 'Hangi taşım korumasız?' ve 'Rakibin son hamlesi neye saldırıyor?'",
+    "count": 349,
+    "per_100": 34.9
+   },
+   {
+    "motif": "unpunished",
+    "title": "Rakibin hatasını cezalandırma",
+    "tip": "Rakip her hamle yaptığında 'Bu hamle neyi korumasız bıraktı?' diye sor.",
+    "count": 358,
+    "per_100": 35.8
+   },
+   {
+    "motif": "wasted_advantage",
+    "title": "Kazanılmış oyunu bitirme",
+    "tip": "Üstün olduğunda acele etme: önce rakibin karşı şansını kes, sonra taş değişerek sadeleştir.",
+    "count": 309,
+    "per_100": 30.9
+   }
+  ],
+  "weak_openings": [
+   {
+    "color": "black",
+    "opening": "Italian Game",
+    "games": 72,
+    "score": 38.9,
+    "win": 28,
+    "loss": 44,
+    "accuracy": 87.1,
+    "opening_blunders_per_game": 0.51
+   },
+   {
+    "color": "white",
+    "opening": "French Defense",
+    "games": 40,
+    "score": 38.8,
+    "win": 14,
+    "loss": 23,
+    "accuracy": 86.6,
+    "opening_blunders_per_game": 0.42
+   }
+  ],
+  "days": [
+   {
+    "day": "Pazartesi",
+    "tasks": [
+     "Bulmaca: Taş güvenliği — 15 adet",
+     "Tekrar kuyruğu: bugünün bulmacaları"
+    ]
+   },
+   {
+    "day": "Salı",
+    "tasks": [
+     "Bulmaca: Rakibin hatasını cezalandırma — 15 adet",
+     "Kaybettiğin 1 oyunu baştan sona kendin incele, sonra motorla karşılaştır"
+    ]
+   },
+   {
+    "day": "Çarşamba",
+    "tasks": [
+     "Açılış alıştırmaları: tekrar eden açılış hataların",
+     "Zayıf açılışlar: Italian Game (siyah), French Defense (beyaz)"
+    ]
+   },
+   {
+    "day": "Perşembe",
+    "tasks": [
+     "Bulmaca: Kazanılmış oyunu bitirme — 15 adet",
+     "Tekrar kuyruğu"
+    ]
+   },
+   {
+    "day": "Cuma",
+    "tasks": [
+     "Bulmaca: Taş güvenliği — 10 adet",
+     "Kazandığın ama zorlandığın 1 oyunu incele"
+    ]
+   },
+   {
+    "day": "Cumartesi",
+    "tasks": [
+     "3 rapid oyun: her hamlede kontrol listesini uygula (aşağıda)",
+     "Oyunlardan sonra fetch + analiz"
+    ]
+   },
+   {
+    "day": "Pazar",
+    "tasks": [
+     "Tekrar kuyruğunun tamamı",
+     "Haftalık raporu oku: hangi konu iyileşti?"
+    ]
+   }
+  ],
+  "checklist": [
+   "Her hamleden önce iki soru: 'Hangi taşım korumasız?' ve 'Rakibin son hamlesi neye saldırıyor?'",
+   "Rakip her hamle yaptığında 'Bu hamle neyi korumasız bıraktı?' diye sor.",
+   "Üstün olduğunda acele etme: önce rakibin karşı şansını kes, sonra taş değişerek sadeleştir."
+  ]
+ }
+}
