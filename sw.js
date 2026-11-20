@@ -1,7 +1,7 @@
 // Çevrimdışı çalışma için service worker.
 // - Uygulama dosyaları (index.html, assets, simgeler): önbellekten, yoksa ağdan
 // - Veri (report.json, puzzles.json): önce ağ (güncel veri), ağ yoksa önbellek
-const VERSION = "20261120223932";
+const VERSION = "20261120233944";
 const CACHE = "satranc-" + VERSION;
 const CORE = ["./", "index.html", "manifest.webmanifest", "report.json", "puzzles.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/favicon.png"];
