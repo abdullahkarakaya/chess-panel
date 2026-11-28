@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T19:02:06",
+ "generated": "2026-11-28T20:09:33",
  "games": 1000,
  "total_games": 1000,
  "username": "a_karakaya",
@@ -1586,6 +1586,337 @@
    "game": "https://www.chess.com/game/live/187615036964"
   }
  ],
+ "progress": {
+  "time_control": "600",
+  "recent_days": 14,
+  "recent_label": "15 Kas – 28 Kas",
+  "recent_games": 65,
+  "base_games": 906,
+  "enough": true,
+  "rating": {
+   "before": 1360,
+   "now": 1516,
+   "base_start": 1439
+  },
+  "metrics": [
+   {
+    "key": "accuracy",
+    "name": "Ortalama isabet",
+    "unit": "%",
+    "better": "higher",
+    "base": 87.3,
+    "recent": 88.6,
+    "trend": "better"
+   },
+   {
+    "key": "blunders_pg",
+    "name": "Oyun başına büyük hata",
+    "unit": "",
+    "better": "lower",
+    "base": 1.11,
+    "recent": 0.91,
+    "trend": "better"
+   },
+   {
+    "key": "hanging_100",
+    "name": "Taş bırakma (100 oyunda)",
+    "unit": "",
+    "better": "lower",
+    "base": 35.3,
+    "recent": 33.8,
+    "trend": "same"
+   },
+   {
+    "key": "unpunished_100",
+    "name": "Rakibin hatasını cezalandırmama (100 oyunda)",
+    "unit": "",
+    "better": "lower",
+    "base": 41.9,
+    "recent": 35.4,
+    "trend": "better"
+   },
+   {
+    "key": "conversion",
+    "name": "Kazanılmış oyunu çevirme",
+    "unit": "%",
+    "better": "higher",
+    "base": 78.3,
+    "recent": 83.7,
+    "trend": "better",
+    "base_n": 506,
+    "recent_n": 43
+   },
+   {
+    "key": "score",
+    "name": "Puan oranı",
+    "unit": "%",
+    "better": "higher",
+    "base": 49.5,
+    "recent": 63.1,
+    "trend": "better"
+   },
+   {
+    "key": "timeout_100",
+    "name": "Süreden kayıp (100 oyunda)",
+    "unit": "",
+    "better": "lower",
+    "base": 1.0,
+    "recent": 0.0,
+    "trend": "better"
+   },
+   {
+    "key": "think_mid",
+    "name": "Orta oyunda hamle başına düşünme",
+    "unit": "sn",
+    "better": null,
+    "base": 9.7,
+    "recent": 9.9,
+    "trend": null
+   },
+   {
+    "key": "time_left",
+    "name": "Oyun sonunda kalan süre (medyan)",
+    "unit": "sn",
+    "better": null,
+    "base": 385,
+    "recent": 382,
+    "trend": null
+   }
+  ],
+  "weekly": [
+   {
+    "week": "2026-W28",
+    "games": 31,
+    "accuracy": 85.5,
+    "blunders_pg": 1.58,
+    "hanging_100": 54.8,
+    "unpunished_100": 58.1,
+    "score": 45.2,
+    "timeout_100": 0.0,
+    "rating_end": 1422
+   },
+   {
+    "week": "2026-W29",
+    "games": 28,
+    "accuracy": 86.5,
+    "blunders_pg": 1.32,
+    "hanging_100": 39.3,
+    "unpunished_100": 57.1,
+    "score": 48.2,
+    "timeout_100": 0.0,
+    "rating_end": 1415
+   },
+   {
+    "week": "2026-W30",
+    "games": 58,
+    "accuracy": 88.5,
+    "blunders_pg": 1.03,
+    "hanging_100": 41.4,
+    "unpunished_100": 41.4,
+    "score": 50.0,
+    "timeout_100": 0.0,
+    "rating_end": 1416
+   },
+   {
+    "week": "2026-W31",
+    "games": 51,
+    "accuracy": 88.3,
+    "blunders_pg": 1.04,
+    "hanging_100": 39.2,
+    "unpunished_100": 39.2,
+    "score": 55.9,
+    "timeout_100": 2.0,
+    "rating_end": 1463
+   },
+   {
+    "week": "2026-W32",
+    "games": 56,
+    "accuracy": 86.9,
+    "blunders_pg": 1.12,
+    "hanging_100": 35.7,
+    "unpunished_100": 39.3,
+    "score": 49.1,
+    "timeout_100": 0.0,
+    "rating_end": 1455
+   },
+   {
+    "week": "2026-W33",
+    "games": 87,
+    "accuracy": 87.8,
+    "blunders_pg": 0.9,
+    "hanging_100": 37.9,
+    "unpunished_100": 25.3,
+    "score": 50.0,
+    "timeout_100": 0.0,
+    "rating_end": 1453
+   },
+   {
+    "week": "2026-W34",
+    "games": 110,
+    "accuracy": 86.8,
+    "blunders_pg": 1.05,
+    "hanging_100": 32.7,
+    "unpunished_100": 42.7,
+    "score": 49.5,
+    "timeout_100": 0.0,
+    "rating_end": 1449
+   },
+   {
+    "week": "2026-W35",
+    "games": 82,
+    "accuracy": 86.2,
+    "blunders_pg": 1.26,
+    "hanging_100": 32.9,
+    "unpunished_100": 50.0,
+    "score": 53.7,
+    "timeout_100": 0.0,
+    "rating_end": 1494
+   },
+   {
+    "week": "2026-W36",
+    "games": 73,
+    "accuracy": 87.1,
+    "blunders_pg": 0.97,
+    "hanging_100": 32.9,
+    "unpunished_100": 43.8,
+    "score": 43.2,
+    "timeout_100": 0.0,
+    "rating_end": 1412
+   },
+   {
+    "week": "2026-W37",
+    "games": 70,
+    "accuracy": 87.9,
+    "blunders_pg": 1.09,
+    "hanging_100": 32.9,
+    "unpunished_100": 31.4,
+    "score": 60.0,
+    "timeout_100": 4.3,
+    "rating_end": 1520
+   },
+   {
+    "week": "2026-W38",
+    "games": 48,
+    "accuracy": 87.4,
+    "blunders_pg": 1.23,
+    "hanging_100": 56.2,
+    "unpunished_100": 50.0,
+    "score": 37.5,
+    "timeout_100": 4.2,
+    "rating_end": 1427
+   },
+   {
+    "week": "2026-W39",
+    "games": 36,
+    "accuracy": 87.4,
+    "blunders_pg": 1.08,
+    "hanging_100": 30.6,
+    "unpunished_100": 44.4,
+    "score": 56.9,
+    "timeout_100": 0.0,
+    "rating_end": 1469
+   },
+   {
+    "week": "2026-W40",
+    "games": 26,
+    "accuracy": 86.8,
+    "blunders_pg": 1.42,
+    "hanging_100": 19.2,
+    "unpunished_100": 57.7,
+    "score": 40.4,
+    "timeout_100": 3.8,
+    "rating_end": 1426
+   },
+   {
+    "week": "2026-W41",
+    "games": 5,
+    "accuracy": 90.3,
+    "blunders_pg": 1.0,
+    "hanging_100": 0.0,
+    "unpunished_100": 20.0,
+    "score": 70.0,
+    "timeout_100": 0.0,
+    "rating_end": 1442
+   },
+   {
+    "week": "2026-W42",
+    "games": 24,
+    "accuracy": 86.7,
+    "blunders_pg": 1.12,
+    "hanging_100": 12.5,
+    "unpunished_100": 62.5,
+    "score": 52.1,
+    "timeout_100": 0.0,
+    "rating_end": 1451
+   },
+   {
+    "week": "2026-W43",
+    "games": 9,
+    "accuracy": 87.1,
+    "blunders_pg": 1.0,
+    "hanging_100": 44.4,
+    "unpunished_100": 22.2,
+    "score": 61.1,
+    "timeout_100": 0.0,
+    "rating_end": 1467
+   },
+   {
+    "week": "2026-W44",
+    "games": 44,
+    "accuracy": 88.5,
+    "blunders_pg": 0.82,
+    "hanging_100": 29.5,
+    "unpunished_100": 29.5,
+    "score": 51.1,
+    "timeout_100": 4.5,
+    "rating_end": 1474
+   },
+   {
+    "week": "2026-W45",
+    "games": 22,
+    "accuracy": 87.5,
+    "blunders_pg": 1.45,
+    "hanging_100": 40.9,
+    "unpunished_100": 36.4,
+    "score": 43.2,
+    "timeout_100": 0.0,
+    "rating_end": 1449
+   },
+   {
+    "week": "2026-W46",
+    "games": 51,
+    "accuracy": 87.4,
+    "blunders_pg": 1.22,
+    "hanging_100": 29.4,
+    "unpunished_100": 51.0,
+    "score": 43.1,
+    "timeout_100": 0.0,
+    "rating_end": 1392
+   },
+   {
+    "week": "2026-W47",
+    "games": 24,
+    "accuracy": 89.1,
+    "blunders_pg": 0.67,
+    "hanging_100": 8.3,
+    "unpunished_100": 37.5,
+    "score": 75.0,
+    "timeout_100": 0.0,
+    "rating_end": 1487
+   },
+   {
+    "week": "2026-W48",
+    "games": 36,
+    "accuracy": 88.3,
+    "blunders_pg": 0.97,
+    "hanging_100": 50.0,
+    "unpunished_100": 27.8,
+    "score": 52.8,
+    "timeout_100": 0.0,
+    "rating_end": 1516
+   }
+  ]
+ },
  "plan": {
   "focus": [
    {
